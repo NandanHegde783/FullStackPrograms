@@ -1,0 +1,1 @@
+This apps are create using Django
