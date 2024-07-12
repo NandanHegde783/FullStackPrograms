@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> {%block title%} Layout template{%endblock%}</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href = "{%url 'home'%}">Home</a>
+                <a href = "{%url 'about'%}">About</a>
+                <a href="{%url 'contact'%}">Contact</a>
+            </nav>
+        </header>
+        <div id = "content">
+            {%block content%}
+            <p>Thsi woooaeflkaw</p>
+            {%endblock%}
+        </div>
+        <footer>
+            <p>
+                &copy; {%now 'Y'} My Web| developed by nad
+            </p>
+        </footer>
+    </body>
+</html>
